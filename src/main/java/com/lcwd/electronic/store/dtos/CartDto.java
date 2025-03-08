@@ -22,7 +22,5 @@ public class CartDto {
 	private Date createdAt;
 	private UserDto user;
 	List<CartItemDto> items = new ArrayList<>();
-
-	
-
+	private String caertCreatedDate;
 }

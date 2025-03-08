@@ -41,7 +41,6 @@ import com.lcwd.electronic.store.service.UserService;
 @RequestMapping("/auth")
 public class AuthController {
 	
-
 	private Logger log = LoggerFactory.getLogger(AuthController.class);
 	
 	@Autowired
